@@ -1,0 +1,35 @@
+.btn-wrapper {
+    display: "flex";
+    flex-direction: row;
+    justify-content: "space-around";
+    align-items: "center";
+    margin-top: "15px";
+
+    .delete-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #68cb61;
+        font-weight: bold;
+        color: #fcfcfc;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .cancel-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #bb3133;
+        font-weight: bold;
+        color: #fcfcfc;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.client-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 95px 0px;
+
+    .inner-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 10px;
+        opacity: 0.85;
+    }
+}
